@@ -1,0 +1,71 @@
+.filmBoxContainer {
+    width: 30%;
+    margin: 0 auto;
+    font-family: 'Lato', sans-serif;
+    padding: 20px;
+    background-color: rgb(79, 172, 179);
+    border: 5px solid #000000;
+    box-shadow: 10px 10px 5px 5px rgba(34, 145, 99, 0.564);
+}
+
+.filmBoxTitle {
+    color: rgb(245, 12, 12); 
+    font-size: 24px;
+    margin-bottom: 20px; 
+}
+.filmBoxList {
+    color: rgb(56, 34, 131); 
+    font-size: 24px;
+    margin-bottom: 20px;    
+}
+
+h1 {
+    border-bottom: 10px solid #000000;
+    border-radius: 30%;
+    border-color: rgb(197, 17, 17);
+}
+
+
+li a{
+    text-decoration: none;
+    color: rgb(18, 4, 67);
+    padding: 20px; 
+}
+
+.link {
+    display: flex;
+    justify-content: space-evenly;   
+    padding: 10px 20px;
+    background-color: #ce1111b9; 
+    color: #ffffff;
+    text-decoration: none; 
+    border-radius: 50px; 
+    cursor: pointer;
+}
+
+.addFilm {
+    display: flex;
+    justify-content: space-evenly;   
+    font-family: 'Lato', sans-serif;
+    color: rgb(0, 0, 0); 
+    font-size: 24px;
+}
+
+.form {
+    display: flex;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.949);
+    border-radius: 30px;
+    background-color: rgb(43, 116, 121);
+
+}
+
+.formButton {
+    margin: 0 auto;
+    background-color: rgb(43, 116, 121);
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+}
+
